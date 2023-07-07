@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-primary: #ffffff;
+  --text-secondary: #8b9096;
+  --color-primary: #61ede3;
+  --color-secondary: #479e9d;
+  --color-bg-primary: #2b3443;
+  --color-bg-secondary: #202732;
+  --color-bg-third: #1a212d;
+}
+
+.filterArrow {
+  filter: invert(75%) sepia(55%) saturate(415%) hue-rotate(116deg)
+    brightness(110%) contrast(86%);
+}
