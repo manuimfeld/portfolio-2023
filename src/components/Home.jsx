@@ -17,7 +17,7 @@ const Home = ({ setActiveNavItem }) => {
         className=" h-[40%] w-fit  md:h-[50vh] mt-[-40px] "
         initial={{ x: "100%" }}
         animate={{ x: "0%" }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       />
       <motion.div
         className="font-['Roboto']  flex flex-col justify-center align-center w-[65%] sm:w-[40%] md:w-[30%]"
