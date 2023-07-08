@@ -23,7 +23,7 @@ const Home = ({ setActiveNavItem }) => {
         className="font-['Roboto']  flex flex-col justify-center align-center w-[65%] sm:w-[40%] md:w-[30%]"
         initial={{ x: "-50%" }}
         animate={{ x: "0%" }}
-        transition={{ duration: 0.5, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       >
         <p className="text-sm font-bold uppercase text-color-secondary">
           Desarrollador web
