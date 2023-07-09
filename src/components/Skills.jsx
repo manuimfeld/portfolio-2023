@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="font-[Roboto] bg-[#202833] mx-auto min-h-[calc(100vh_-_60px)] lg:px-[40px]"
+      className="font-[Roboto] bg-[#202833] mx-auto min-h-[calc(100vh_-_60px)] px-[20px] md:px-[40px]"
     >
       <h2 className="text-color-primary mx-auto w-fit text-2xl pt-10">
         Habilidades
@@ -49,7 +49,7 @@ const Skills = () => {
           ))}
         </Marquee>
       </ul>
-      <div className="font-[Roboto] w-full h-full flex flex-wrap justify-around items-center sm:items-start sm:mt-10">
+      <div className="font-[Roboto] w-full h-full flex flex-wrap justify-center sm:justify-between items-center sm:items-start sm:mt-10">
         <motion.article
           whileHover={{ scale: 1.1 }}
           className="text-text-primary border-2 border-color-primary flex flex-col h-[300px] justify-between items-center w-[80%] sm:w-[40%] my-10 bg-color-bg-third rounded-[15px] py-10"
@@ -68,7 +68,7 @@ const Skills = () => {
           <p>Tailwind</p>
           <p>NodeJS</p>
           <p>MongoDB</p>
-          <p>MySQL</p>
+          <p>Strapi</p>
         </motion.article>
       </div>
     </section>
