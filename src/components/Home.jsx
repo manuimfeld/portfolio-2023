@@ -35,7 +35,7 @@ const Home = ({ setActiveNavItem }) => {
         <a
           href={cv}
           download
-          className="flex justify-center items-center uppercase text-color-primary px-8 h-[40px] w-auto  rounded border-2 border-color-primary"
+          className="flex justify-center items-center uppercase text-color-primary px-4 py-2 h-fit w-fit mx-auto  rounded border-2 border-color-primary"
         >
           Descargar curriculum
         </a>

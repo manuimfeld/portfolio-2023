@@ -51,7 +51,7 @@ const Form = () => {
       <input
         value="Enviar mensaje"
         type="submit"
-        className="w-[50%] ml-[25%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        className="w-[60%] sm:w-[50%] ml-[20%] sm:ml-[25%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
       />
     </form>
   );
