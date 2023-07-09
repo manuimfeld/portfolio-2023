@@ -6,7 +6,7 @@ const AboutMe = () => {
       id="aboutme"
       className="flex flex-col md:flex-row md:items-center justify-center text-center px-[20px] flex-wrap w-auto min-h-[calc(100vh_-_60px)] lg:px-[40px]"
     >
-      <h2 className="h-fit text-color-primary mx-auto w-full text-2xl pt-10">
+      <h2 className="h-fit text-color-primary mx-auto w-full text-2xl  pt-6">
         Sobre mí
       </h2>
       <div className="order-2 md:order-1 flex flex-col items-center justify-center pt-10 mx-auto md:mx-0 w-[100%] md:w-[50%] h-[50%] ">
