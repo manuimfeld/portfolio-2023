@@ -11,7 +11,7 @@ const AboutMe = () => {
       </h2>
       <div className="order-2 md:order-1 flex flex-col items-center justify-center pt-10 mx-auto md:mx-0 w-[100%] md:w-[50%] h-[50%] ">
         <img
-          src="https://manuimfeld.com.ar/img/51068304.png"
+          src="https://portfolio.manuimfeld.com.ar/img/51068304.png"
           alt="Ilustracion SVG de una persona programando"
           className="p-2 border-4 border-color-primary rounded-[100%] h-[70%] w-[60%] md:h-[50%] md:w-[40%] md:mr-[20%]"
         />
