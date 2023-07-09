@@ -1,7 +1,7 @@
 export const handleSubmit = (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);
-  fetch(import.meta.env.VITE_FORM_URI, {
+  fetch(`https://formspree.io/f/${import.meta.env.VITE_FORM_URI}`, {
     method: "POST",
     body: formData,
     headers: {
