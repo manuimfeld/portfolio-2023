@@ -4,30 +4,43 @@ const AboutMe = () => {
   return (
     <section
       id="aboutme"
-      className="flex flex-col md:flex-row md:items-center justify-between text-center px-[20px] flex-wrap w-auto min-h-[calc(100vh_-_60px)] lg:px-[40px]"
+      className="flex flex-col md:flex-row md:items-center justify-center text-center px-[20px] flex-wrap w-auto min-h-[calc(100vh_-_60px)] lg:px-[40px]"
     >
       <h2 className="h-fit text-color-primary mx-auto w-full text-2xl pt-10">
         Sobre mí
       </h2>
       <div className="order-2 md:order-1 flex flex-col items-center justify-center pt-10 mx-auto md:mx-0 w-[100%] md:w-[50%] h-[50%] ">
         <img
-          src="https://portfolio.manuimfeld.com.ar/img/51068304.png"
+          src="https://manuimfeld.com.ar/img/51068304.png"
           alt="Ilustracion SVG de una persona programando"
           className="p-2 border-4 border-color-primary rounded-[100%] h-[70%] w-[60%] md:h-[50%] md:w-[40%] md:mr-[20%]"
         />
         <p className="text-text-primary font-bold text-2xl mb-5 mt-2 md:mr-[20%]">
           Manuel Imfeld
         </p>
-        <div className="flex items-center justify-between md:mr-auto w-[100vw] md:w-[80%] mb-10">
-          <a href="" className="w-fit mx-5 md:mx-0">
+        <div className="flex items-center justify-center md:mr-auto w-[100vw] md:w-[80%] my-5">
+          <a
+            href="mailto: manu_jadir@hotmail.com?subject=Propuesta&body"
+            className="w-fit mx-5"
+          >
             <FaEnvelope className="w-fit mx-auto filterArrow" />
             <span className="text-text-primary">Enviar Mail</span>
           </a>
-          <a href="" className="w-fit mx-5 md:mx-0">
+          <a
+            href="https://github.com/manuimfeld"
+            target="_blank"
+            rel="noreferrer"
+            className="w-fit mx-5"
+          >
             <FaGithub className="w-fit mx-auto filterArrow" />
             <span className="text-text-primary">Ver Github</span>
           </a>
-          <a href="" className="w-fit mx-5 md:mx-0">
+          <a
+            href="https://www.linkedin.com/in/manuimfeld/"
+            target="_blank"
+            rel="noreferrer"
+            className="w-fit mx-5"
+          >
             <FaLinkedin className="w-fit mx-auto filterArrow" />
             <span className="text-text-primary">Ver Linkedin</span>
           </a>
