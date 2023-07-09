@@ -29,11 +29,11 @@ const Nav = ({ activeNavItem, setActiveNavItem }) => {
           isOpen === true
             ? "h-[100vh] flex flex-col md:flex-row justify-start md:px-[40px] md:justify-center lg:justify-end items-center md:h-full text-[#838991]  bg-[#202833]"
             : "flex items-center h-full px-[20px] md:px-[40px]"
-        } justify-start md:justify-end items-center md:h-full text-[#838991]  bg-[#202833]`}
+        } justify-center md:justify-end items-center md:h-full text-[#838991]  bg-[#202833]`}
       >
         {/* nav Custom item  */}
         <motion.li
-          className={`h-fit w-fit text-color-primary md:font-bold md:mr-auto`}
+          className={`my-5 h-fit w-fit text-color-primary md:font-bold md:mr-auto`}
           onClick={() => handleNavItemClick("home")}
           whileHover={{ scale: 1.1 }}
         >
@@ -72,7 +72,7 @@ const Nav = ({ activeNavItem, setActiveNavItem }) => {
         <li
           className={`${
             isOpen === false ? "ml-auto md:ml-0" : ""
-          } flex items-center`}
+          } flex items-center my-5 text-white`}
           onClick={() => setIsOpen(!isOpen)}
         >
           <FaWindowClose

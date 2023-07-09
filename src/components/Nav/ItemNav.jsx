@@ -11,7 +11,7 @@ const ItemNav = ({
     <motion.li
       className={`${
         isOpen === false ? "hidden md:inline-block" : ""
-      } h-fit md:px-10 ${
+      } h-fit md:px-10 my-2 ${
         dataItem.text === "Contacto" ? "md:pl-10 md:pr-0" : ""
       }`}
       onClick={() => {
