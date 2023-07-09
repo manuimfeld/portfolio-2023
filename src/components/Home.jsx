@@ -1,6 +1,7 @@
 import homeImg from "../img/webp_vector.webp";
 import arrowImg from "../img/svg_arrow.svg";
 import { motion } from "framer-motion";
+import cv from "../../cv-manuelimfeld.pdf";
 
 const Home = ({ setActiveNavItem }) => {
   return (
@@ -31,9 +32,13 @@ const Home = ({ setActiveNavItem }) => {
         <h1 className="text-4xl w-fit mb-5 font-bold text-text-primary  mx-auto ">
           Manuel Imfeld
         </h1>
-        <button className="uppercase text-color-primary px-8 h-[40px] w-auto  rounded border-2 border-color-primary">
-          Ver curriculum
-        </button>
+        <a
+          href={cv}
+          download
+          className="flex justify-center items-center uppercase text-color-primary px-8 h-[40px] w-auto  rounded border-2 border-color-primary"
+        >
+          Descargar curriculum
+        </a>
       </motion.div>
       <a
         href="#aboutme"
