@@ -13,8 +13,8 @@ const Card = ({ showDescription, handleTap, data }) => {
       />
       <motion.div
         className="text-center py-2 px-4 absolute top-0 opacity-0 flex flex-col justify-between items-center bg-color-bg-third h-[200px] lg:h-[300px] w-[100%]  rounded-[10px] border-2 border-color-primary"
-        animate={{ opacity: showDescription === "trivia" ? 1 : 0 }}
-        onTap={() => handleTap("trivia")}
+        animate={{ opacity: showDescription === data.title ? 1 : 0 }}
+        onTap={() => handleTap(data.title)}
       >
         <h2 className="text-text-primary mt-[10px] lg:text-xl">{data.title}</h2>
         <p className="text-xs text-text-secondary lg:text-lg">{data.text}</p>
